@@ -921,18 +921,15 @@ body {
 }
 
 .animation2 {
-    animation: intro-back 1s ease;
-    transition-property: opacity;
-    transition-duration: 3s;
-    transition-delay: 1s;
+    animation: intro-back 2s ease;
     opacity: 1!important;
 }
 
 .animation3 {
-    animation: intro-back 1s ease;
+    animation: intro-back 0.5s ease;
     transition-property: opacity;
-    transition-duration: 3s;
-    transition-delay: 1s;
+    transition-duration: 1s;
+    transition-delay: 2s;
     opacity: 1!important;
 }
 
@@ -1513,4 +1510,59 @@ body {
     animation: plavnp_poyas 1s ease;
     opacity: 0;
     cursor: pointer
+}
+
+.proj {
+    width: 100%;
+    opacity: 0;
+    height: 100vh;
+    background-image: url("../images/pr1.png");
+    background-size: cover;
+}
+
+.white_section {
+    background-color: white;
+    min-height: 60%;
+    position: relative;
+    bottom: -40%;
+}
+
+.text_section p {
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+    padding-left: 100px;
+    padding-top: 55px;
+    padding-right: 100px;
+    padding-bottom: 55px;
+    color: #5a5a5a;
+}
+
+.link_proj {
+    font-family: 'PT Sans', sans-serif;
+    color: #5a5a5a;
+    position: absolute;
+    bottom: 10px;
+    right: 100px;
+}
+
+.back_arrow {
+    text-decoration: none;
+    text-decoration: none;
+    position: absolute;
+    top: 10px;
+    opacity: 0;
+    padding-left: 20px;
+}
+
+.back_arrow span {
+    position: relative;
+    top: -23px;
+    color: white;
+    left: 20px;
+    font-size: 19px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.back_arrow:hover span {
+    color: wheat
 }

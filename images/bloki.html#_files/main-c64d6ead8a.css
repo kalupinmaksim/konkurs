@@ -1410,11 +1410,6 @@ body {
     src: local('Code-Pro-LC'), url('https://nomail.com.ua/files/woff/2911619e2e1b119cfbc99e7bc8755d78.woff') format('woff');
 }
 
-@font-face {
-    font-family: 'CodeProLC';
-    src: local('CodeProLC'), url('fonts/CodeProLC.otf') format('opentype');
-}
-
 .pp-logo h1 {
     font-family: 'Code-Pro-LC';
     color: black;
@@ -1426,15 +1421,6 @@ body {
     color: black;
     font-weight: 100;
     font-family: 'PT Sans', sans-serif;
-}
-
-#block {
-    background-color: white!important;
-}
-
-.block_sec {
-    opacity: 0;
-    overflow-x: hidden
 }
 
 .butn {
@@ -1452,65 +1438,4 @@ body {
     padding-top: 5px;
     font-size: 20px;
     padding-bottom: 5px;
-}
-
-.projects-portfolio {
-    padding-top: 0!important;
-}
-
-.port_zag {
-    font-family: 'PT Sans', sans-serif;
-    text-transform: uppercase;
-    margin: 0;
-    padding-top: 30px;
-    letter-spacing: 1px;
-    display: inline-block;
-    font-weight: 500;
-    margin-left: 14px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid black;
-    margin-bottom: 40px;
-}
-
-.pord_item {
-    display: inline-block;
-    width: 25.07%;
-    margin-left: -4px;
-    position: relative;
-}
-
-.pt3 {
-    position: relative;
-    top: -4px;
-}
-
-.pordr_container {
-    margin-left: 18px;
-}
-
-.filter_color {
-    opacity: 0.8;
-    position: absolute;
-    width: 100%;
-    height: 99%;
-    overflow: hidden;
-}
-
-.add_opacity {
-    opacity: 1;
-}
-
-@keyframes plavnp_poyas {
-    0% {
-        opacity: 0.8;
-    }
-    100% {
-        opacity: 0;
-    }
-}
-
-.pord_item:hover .filter_color img {
-    animation: plavnp_poyas 1s ease;
-    opacity: 0;
-    cursor: pointer
 }

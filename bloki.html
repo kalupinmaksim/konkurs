@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en" ng-app="cf-website" ng-controller="AppCtrl" prefix="og: http://ogp.me/ns#">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.typotheque.com/WF-023229-008354.css" type="text/css" />
+
+    <link rel="stylesheet" href="styles/main-c64d6ead8a.css">
+    <link rel="stylesheet" href="styles/anim_block.css">
+    <link href="https://fonts.googleapis.com/css?family=Marmelad" rel="stylesheet">
+
+</head>
+<style>
+    #map {
+        height: 100vh;
+    }
+</style>
+
+<body>
+    <navigation>
+        <div class="nav-toggle">
+            <div class="nav-toggle__icon">
+                <div class="nav-toggle__icon__line nav-toggle__icon__line--1"></div>
+                <div class="nav-toggle__icon__line nav-toggle__icon__line--2"></div>
+                <div class="nav-toggle__icon__line nav-toggle__icon__line--3"></div>
+            </div>
+        </div>
+
+        <div class="navigation">
+            <!--add class navigation--show -->
+            <div class="nav-menu-wrapper">
+
+                <div class="nav-menu-table">
+
+                    <div class="nav-menu-center">
+
+                        <nav class="nav-menu nav-menu--pages">
+                            <ul class="nav-menu__list">
+
+                                <li class="nav-menu__list-item nav-menu__list-item--active">
+                                    <a href="index.html" class="nav-menu__list-item__link">
+                                        <span>О КОМПАНИИ</span>
+                                    </a>
+                                    <navigation-indent>
+                                        <div class="nav-menu__expand" expand="expand" style="height: 0px;">
+                                            <ul class="nav-menu__list nav-menu__list--indent">
+                                                <li class="nav-menu__list-item__heading ng-hide"></li>
+                                            </ul>
+                                        </div>
+                                    </navigation-indent>
+                                </li>
+                                <li class="nav-menu__list-item">
+                                    <a class="nav-menu__list-item__link" href="bloki.html">
+                                        <span>ОБЪЕКТЫ</span>
+                                    </a>
+                                    <div class="nav-menu__expand nav-menu--work" style="height: 0px;">
+                                        <ul class="nav-menu__list nav-menu__list--indent">
+                                            <li class="nav-menu__list-item">
+                                                <a class="nav-menu__list-item__link" href="#">
+                                                    <span ng-bind="case.shortName">Mashrooi</span>
+                                                </a>
+                                            </li>
+                                            <!-- end ngRepeat: case in cases -->
+                                            <li class="nav-menu__list-item">
+                                                <a class="nav-menu__list-item__link" href="#">
+                                                    <span ng-bind="case.shortName">Red Bull Visualization</span>
+                                                </a>
+                                            </li>
+                                            <!-- end ngRepeat: case in cases -->
+                                            <li class="nav-menu__list-item">
+                                                <a class="nav-menu__list-item__link" href="#">
+                                                    <span ng-bind="case.shortName">District Mobility</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                    </div>
+                                </li>
+
+                                <li class="nav-menu__list-item">
+                                    <a class="nav-menu__list-item__link" href="#">
+                                        <span>ПРЕСС-ЦЕНТР</span>
+                                    </a>
+                                </li>
+
+                                <li class="nav-menu__list-item">
+                                    <a class="nav-menu__list-item__link" href="geo.html">
+                                        <span>ГЕОГРАФИЯ</span>
+                                    </a>
+                                </li>
+
+                                <li class="nav-menu__list-item">
+                                    <a class="nav-menu__list-item__link" href="#">
+                                        <span>ДОКУМЕНТАЦИЯ</span>
+                                    </a>
+                                </li>
+
+                                <li class="nav-menu__list-item">
+                                    <a class="nav-menu__list-item__link" href="#">
+                                        <span>ПАРТНЕРЫ</span>
+                                    </a>
+                                </li>
+                            </ul>
+
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <ul class="nav-menu__social-links">
+                <li>
+                    <img src="images/phone.png" alt="">
+                    <span class="text_nav_cantact">8 910 519-24-67</span>
+                </li>
+                <li>
+                    <img src="images/mail.png" alt="">
+                    <span class="text_nav_cantact pl1">sjdjkkk@gmail.com7</span>
+                </li>
+                <li>
+                    <img src="images/addr.png" alt="">
+                    <span class="text_nav_cantact pl2"> г. Липецк, ул. Ленина, д. 12</span>
+                </li>
+
+                <!-- <li  class="nav-menu__social-links__item">
+							<a href="#" target="_blank"><img alt="instagram" src="images/instagram.svg"></a>
+						</li> -->
+            </ul>
+        </div>
+    </navigation>
+
+    <div class="cf-logo">
+        <a class="cf-logo__link" href="/"><img src="images/logo.png" alt=""></a>
+    </div>
+    <div ui-view="" class="view view-transition">
+        <!-- AIzaSyAPolm5dU159QBctPcpCVLtifp6hFqNkK4 -->
+        <div id="blok" class="block_sec">
+
+            <section class="home-new-section">
+
+                <div class="projects-portfolio">
+                    <h1 class="port_zag">Сибпромстрой - генеральный подрядчик</h1>
+                    <div class="pp-projects-list">
+                        <div class="pp-pl-item">
+                            <div class="pp-images-container">
+                                <div class="pp-main-image-block">
+                                    <div class="pp-main-image-container">
+                                        <div class="pp-main-perspective-image">
+                                            <div class="pp-image pp-image-main" style="background-image: url('images/proj1.jpg');"></div>
+                                        </div>
+                                        <div class="pp-main-image-wrapper">
+                                            <div class="pp-image pp-image-main" style="background-image: url('images/proj1.png');"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <img width="299" height="566" class="pp-image-perspective" src="https://www.bluefountainmedia.com/images/sections/ProjectsPortfolio/images/perspective-project-1.png">
+                            </div>
+                            <div class="pp-item-container">
+                                <div class="pp-description">
+                                    <div class="pp-top">
+                                        <div class="pp-logo">
+                                            <h1>Объект №1, Адрес- Ленина, д. 12</h1>
+                                            <h2>Дата завершения стр-ва - 18.12.2015 г.</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="pp-text">
+                                        <a class="butn" href="#">Подробнее..</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="pp-pl-item">
+                            <div class="pp-images-container">
+                                <div class="pp-main-image-block">
+                                    <div class="pp-main-image-container">
+                                        <div class="pp-main-perspective-image">
+                                            <div class="pp-image pp-image-main" style="background-image: url('images/proj1.jpg');"></div>
+                                        </div>
+                                        <div class="pp-main-image-wrapper">
+                                            <div class="pp-image pp-image-main" style="background-image: url('images/proj1.png');"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <img width="299" height="566" class="pp-image-perspective" src="https://www.bluefountainmedia.com/images/sections/ProjectsPortfolio/images/perspective-project-1.png">
+                            </div>
+                            <div class="pp-item-container">
+                                <div class="pp-description">
+                                    <div class="pp-top">
+                                        <div class="pp-logo">
+                                            <h1>Объект №1, Адрес- Ленина, д. 12</h1>
+                                            <h2>Дата завершения стр-ва - 18.12.2015 г.</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="pp-text">
+                                        <a class="butn" href="#">Подробнее..</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="pp-pl-item">
+                            <div class="pp-images-container">
+                                <div class="pp-main-image-block">
+                                    <div class="pp-main-image-container">
+                                        <div class="pp-main-perspective-image">
+                                            <div class="pp-image pp-image-main" style="background-image: url('images/proj1.jpg');"></div>
+                                        </div>
+                                        <div class="pp-main-image-wrapper">
+                                            <div class="pp-image pp-image-main" style="background-image: url('images/proj1.png');"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <img width="299" height="566" class="pp-image-perspective" src="https://www.bluefountainmedia.com/images/sections/ProjectsPortfolio/images/perspective-project-1.png">
+                            </div>
+                            <div class="pp-item-container">
+                                <div class="pp-description">
+                                    <div class="pp-top">
+                                        <div class="pp-logo">
+                                            <h1>Объект №1, Адрес- Ленина, д. 12</h1>
+                                            <h2>Дата завершения стр-ва - 18.12.2015 г.</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="pp-text">
+                                        <a class="butn" href="#">Подробнее..</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="pp-pl-item">
+                            <div class="pp-images-container">
+                                <div class="pp-main-image-block">
+                                    <div class="pp-main-image-container">
+                                        <div class="pp-main-perspective-image">
+                                            <div class="pp-image pp-image-main" style="background-image: url('images/proj1.jpg');"></div>
+                                        </div>
+                                        <div class="pp-main-image-wrapper">
+                                            <div class="pp-image pp-image-main" style="background-image: url('images/proj1.png');"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <img width="299" height="566" class="pp-image-perspective" src="https://www.bluefountainmedia.com/images/sections/ProjectsPortfolio/images/perspective-project-1.png">
+                            </div>
+                            <div class="pp-item-container">
+                                <div class="pp-description">
+                                    <div class="pp-top">
+                                        <div class="pp-logo">
+                                            <h1>Объект №1, Адрес- Ленина, д. 12</h1>
+                                            <h2>Дата завершения стр-ва - 18.12.2015 г.</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="pp-text">
+                                        <a class="butn" href="#">Подробнее..</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <h1 class="port_zag">Сибпромстрой - подрядчик</h1>
+                    <div class="pordr_container">
+                        <div class="pord_item">
+
+                            <a href="#">
+                                <div class="filter_color">
+                                    <img src="images/filter.png" alt="">
+                                </div>
+                                <img src="images/slide1.png" alt="">
+                            </a>
+                        </div>
+                        <div class="pord_item">
+                            <div class="filter_color">
+                                <img src="images/filter.png" alt="">
+                            </div>
+                            <a href="#">
+                                <img src="images/slide1.png" alt="">
+                            </a>
+                        </div>
+                        <div class="pord_item">
+                            <div class="filter_color">
+                                <img src="images/filter.png" alt="">
+                            </div>
+                            <a href="#">
+                                <img src="images/slide1.png" alt="">
+                            </a>
+                        </div>
+                        <div class="pord_item">
+                            <div class="filter_color">
+                                <img src="images/filter.png" alt="">
+                            </div>
+                            <a href="#">
+                                <img src="images/slide1.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="pordr_container pt3">
+                        <div class="pord_item">
+                            <div class="filter_color">
+                                <img src="images/filter.png" alt="">
+                            </div>
+                            <a href="#">
+                                <img src="images/slide1.png" alt="">
+                            </a>
+                        </div>
+                        <div class="pord_item">
+                            <div class="filter_color">
+                                <img src="images/filter.png" alt="">
+                            </div>
+                            <a href="#">
+                                <img src="images/slide1.png" alt="">
+                            </a>
+                        </div>
+                        <div class="pord_item">
+                            <div class="filter_color">
+                                <img src="images/filter.png" alt="">
+                            </div>
+                            <a href="#">
+                                <img src="images/slide1.png" alt="">
+                            </a>
+                        </div>
+                        <div class="pord_item">
+                            <div class="filter_color">
+                                <img src="images/filter.png" alt="">
+                            </div>
+                            <a href="#">
+                                <img src="images/slide1.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script>
+        function func() {
+            document.getElementById("blok").classList.add("animation1");
+        }
+        setTimeout(func, 100);
+    </script>
+
+
+</body>
+
+</html>

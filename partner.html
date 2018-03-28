@@ -9,6 +9,7 @@
 
     <link rel="stylesheet" href="styles/main-c64d6ead8a.css">
     <link href="https://fonts.googleapis.com/css?family=Marmelad" rel="stylesheet">
+
 </head>
 <style>
     #map {
@@ -18,7 +19,7 @@
 
 <body>
     <navigation>
-        <div class="nav-toggle">
+        <div onclick="gemMenu()" class="nav-toggle">
             <div class="nav-toggle__icon">
                 <div class="nav-toggle__icon__line nav-toggle__icon__line--1"></div>
                 <div class="nav-toggle__icon__line nav-toggle__icon__line--2"></div>
@@ -26,7 +27,7 @@
             </div>
         </div>
 
-        <div class="navigation">
+        <div id="navmenu" class="navigation">
             <!--add class navigation--show -->
             <div class="nav-menu-wrapper">
 
@@ -51,7 +52,7 @@
                                 </li>
                                 <li class="nav-menu__list-item">
                                     <a class="nav-menu__list-item__link" href="bloki.html">
-                                        <span class="activemenu">ОБЪЕКТЫ</span>
+                                        <span>ОБЪЕКТЫ</span>
                                     </a>
                                     <div class="nav-menu__expand nav-menu--work" style="height: 0px;">
                                         <ul class="nav-menu__list nav-menu__list--indent">
@@ -95,9 +96,9 @@
                                     </a>
                                 </li>
 
-                                <li class="nav-menu__list-item">
-                                    <a class="nav-menu__list-item__link" href="partner.html">
-                                        <span>ПАРТНЕРЫ</span>
+                                <li class="nav-menu__list-item ">
+                                    <a class="nav-menu__list-item__link " href="partner.html">
+                                        <span class="activemenu">ПАРТНЕРЫ</span>
                                     </a>
                                 </li>
                             </ul>
@@ -131,33 +132,53 @@
     <div class="cf-logo">
         <a class="cf-logo__link" href="index.html"><img src="images/logo.png" alt=""></a>
     </div>
-    <div class="view view-transition">
-        <a id="back_arrow" class="back_arrow" href="bloki.html"><img src="images/l_arrow.png" alt=""><span>Назад</span></a>
-        <div id="proj" class="proj">
-            <div class="white_section">
-                <div class="text_section">
-                    <p>
-                        По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст рыба на русском языке наполнит любой макет непонятным смыслом и придаст
-                        неповторимый колорит советских времен. По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст рыба
-                        на русском языке наполнит любой макет непонятным смыслом и придаст неповторимый колорит советских времен. <br><br>По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает
-                        у некторых людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст рыба на русском языке наполнит любой макет непонятным смыслом и придаст неповторимый колорит советских времен.<br><br> По своей сути
-                        рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст рыба на русском языке наполнит любой макет непонятным смыслом
-                        и придаст неповторимый колорит советских времен.
-                        <br><br> По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых людей недоумение при попытках прочитать рыбу текст.
-                    </p>
-                    <a class="link_proj" href="#">Посмотреть на карте</a>
+    <div ui-view="" class="view view-transition">
+        <!-- AIzaSyAPolm5dU159QBctPcpCVLtifp6hFqNkK4 -->
+        <div id="partner" class="partner">
+            <div class="container_partner">
+                <div class="partner_img">
+                    <img src="images/partner.png" alt="">
                 </div>
+                <div class="partner_text">
+                    <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании
+                        генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового
+                        восприятия. <br><br> По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых людей недоумение при попытках прочитать рыбу текст. <br><br> По своей сути рыбатекст является альтернативой
+                        традиционному lorem ipsum, который вызывает у некторых людей недоумение при попытках прочитать рыбу текст. </p>
+                </div>
+            </div>
+            <div class="container_partner partners_line2">
+                <div class="partner_text">
+                    <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании
+                        генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового
+                        восприятия. <br><br> По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых людей недоумение при попытках прочитать рыбу текст. <br><br> По своей сути рыбатекст является альтернативой
+                        традиционному lorem ipsum, который вызывает у некторых людей недоумение при попытках прочитать рыбу текст. </p>
+                </div>
+                <div class="partner_img">
+                    <img src="images/partner.png" alt="">
+                </div>
+
             </div>
         </div>
     </div>
-
     <script>
         function func() {
-            document.getElementById("proj").classList.add("animation2");
-            document.getElementById("back_arrow").classList.add("animation3");
+            document.getElementById("partner").classList.add("animation1");
         }
         setTimeout(func, 100);
+        let menu = 0;
+
+        function gemMenu() {
+            if (menu == 0) {
+                document.getElementById("navmenu").classList.add("navigation--show");
+                menu = 1;
+            } else {
+                document.getElementById("navmenu").classList.remove("navigation--show");
+                menu = 0;
+            }
+
+        }
     </script>
+
 </body>
 
 </html>

@@ -7,6 +7,10 @@ html {
     /* 2 */
 }
 
+.nav-menu-center {
+    z-index: 999999;
+}
+
 @media (max-width: 768px) {
     .document_container {
         padding-top: 40px;

@@ -614,7 +614,7 @@
 }
 
 .projects-portfolio .pp-pl-item:nth-child(1) {
-    z-index: 3
+    z-index: 4
 }
 
 .projects-portfolio .pp-pl-item:nth-child(2) {
@@ -945,7 +945,7 @@
 
 @media only screen and (min-width:767px) and (max-width:1153px) {
     .projects-portfolio .pp-pl-item .pp-logo {
-        width: 125px
+        width: 325px
     }
 }
 

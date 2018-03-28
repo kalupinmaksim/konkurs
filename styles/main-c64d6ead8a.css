@@ -28,7 +28,7 @@ html {
         flex-direction: column-reverse!important;
     }
     .nav-menu__list-item {
-        padding-top: 15px;
+        padding-top: 5px;
     }
     .nav-menu__social-links li {
         padding-top: 5px;

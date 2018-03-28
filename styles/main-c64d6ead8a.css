@@ -1020,10 +1020,9 @@ body {
 }
 
 .animation3 {
-    animation: intro-back 0.5s ease;
     transition-property: opacity;
-    transition-duration: 1s;
-    transition-delay: 2s;
+    transition-duration: 2s;
+    transition-delay: 0.5s;
     opacity: 1!important;
 }
 
@@ -1733,6 +1732,7 @@ body {
 }
 
 .document_item {
+    opacity: 0;
     display: flex;
     margin-top: 45px;
     flex-direction: row;

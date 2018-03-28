@@ -28,7 +28,7 @@
             </div>
         </div>
 
-        <div class="navigation">
+        <div id="navmenu" class="navigation">
             <!--add class navigation--show -->
             <div class="nav-menu-wrapper">
 
@@ -345,6 +345,18 @@
             document.getElementById("blok").classList.add("animation1");
         }
         setTimeout(func, 100);
+        let menu = 0;
+
+        function gemMenu() {
+            if (menu == 0) {
+                document.getElementById("navmenu").classList.add("navigation--show");
+                menu = 1;
+            } else {
+                document.getElementById("navmenu").classList.remove("navigation--show");
+                menu = 0;
+            }
+
+        }
     </script>
 
 

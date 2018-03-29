@@ -1828,7 +1828,8 @@ body {
     margin-top: 45px;
     flex-direction: row;
     justify-content: space-around;
-    display: flow-root!important;
+    display: flex!important;
+    flex-direction: column;
 }
 
 .back_press {

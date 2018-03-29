@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en" ng-app="cf-website" ng-controller="AppCtrl" prefix="og: http://ogp.me/ns#">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.typotheque.com/WF-023229-008354.css" type="text/css" />
+
+    <link rel="stylesheet" href="styles/main-c64d6ead8a.css">
+    <link href="https://fonts.googleapis.com/css?family=Marmelad" rel="stylesheet">
+</head>
+<style>
+    #map {
+        height: 100vh;
+    }
+</style>
+
+<body>
+    <navigation>
+        <div onclick="gemMenu()" class="nav-toggle">
+            <div class="nav-toggle__icon">
+                <div class="nav-toggle__icon__line nav-toggle__icon__line--1"></div>
+                <div class="nav-toggle__icon__line nav-toggle__icon__line--2"></div>
+                <div class="nav-toggle__icon__line nav-toggle__icon__line--3"></div>
+            </div>
+        </div>
+
+        <div id="navmenu" class="navigation">
+            <!--add class navigation--show -->
+            <div class="nav-menu-wrapper">
+
+                <div class="nav-menu-table">
+
+                    <div class="nav-menu-center">
+
+                        <nav class="nav-menu nav-menu--pages">
+                            <ul class="nav-menu__list">
+
+                                <li class="nav-menu__list-item nav-menu__list-item--active">
+                                    <a href="about.html" class="nav-menu__list-item__link">
+                                        <span>О КОМПАНИИ</span>
+                                    </a>
+                                    <navigation-indent>
+                                        <div class="nav-menu__expand" expand="expand" style="height: 0px;">
+                                            <ul class="nav-menu__list nav-menu__list--indent">
+                                                <li class="nav-menu__list-item__heading ng-hide"></li>
+                                            </ul>
+                                        </div>
+                                    </navigation-indent>
+                                </li>
+                                <li class="nav-menu__list-item">
+                                    <a class="nav-menu__list-item__link" href="bloki.html">
+                                        <span class="activemenu">ОБЪЕКТЫ</span>
+                                    </a>
+                                    <div class="nav-menu__expand nav-menu--work" style="height: 0px;">
+                                        <ul class="nav-menu__list nav-menu__list--indent">
+                                            <li class="nav-menu__list-item">
+                                                <a class="nav-menu__list-item__link" href="#">
+                                                    <span ng-bind="case.shortName">Mashrooi</span>
+                                                </a>
+                                            </li>
+                                            <!-- end ngRepeat: case in cases -->
+                                            <li class="nav-menu__list-item">
+                                                <a class="nav-menu__list-item__link" href="#">
+                                                    <span ng-bind="case.shortName">Red Bull Visualization</span>
+                                                </a>
+                                            </li>
+                                            <!-- end ngRepeat: case in cases -->
+                                            <li class="nav-menu__list-item">
+                                                <a class="nav-menu__list-item__link" href="#">
+                                                    <span ng-bind="case.shortName">District Mobility</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                    </div>
+                                </li>
+
+                                <li class="nav-menu__list-item">
+                                    <a class="nav-menu__list-item__link" href="press.html">
+                                        <span>ПРЕСС-ЦЕНТР</span>
+                                    </a>
+                                </li>
+
+                                <li class="nav-menu__list-item">
+                                    <a class="nav-menu__list-item__link" href="geo.html">
+                                        <span>ГЕОГРАФИЯ</span>
+                                    </a>
+                                </li>
+
+                                <li class="nav-menu__list-item">
+                                    <a class="nav-menu__list-item__link" href="doc.html">
+                                        <span>ДОКУМЕНТАЦИЯ</span>
+                                    </a>
+                                </li>
+
+                                <li class="nav-menu__list-item">
+                                    <a class="nav-menu__list-item__link" href="partner.html">
+                                        <span>ПАРТНЕРЫ</span>
+                                    </a>
+                                </li>
+                            </ul>
+
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <ul class="nav-menu__social-links">
+                <li>
+                    <img src="images/phone.png" alt="">
+                    <span class="text_nav_cantact">8 910 519-24-67</span>
+                </li>
+                <li>
+                    <img src="images/mail.png" alt="">
+                    <span class="text_nav_cantact pl1">sjdjkkk@gmail.com7</span>
+                </li>
+                <li>
+                    <img src="images/addr.png" alt="">
+                    <span class="text_nav_cantact pl2"> г. Липецк, ул. Ленина, д. 12</span>
+                </li>
+
+                <!-- <li  class="nav-menu__social-links__item">
+							<a href="#" target="_blank"><img alt="instagram" src="images/instagram.svg"></a>
+						</li> -->
+            </ul>
+        </div>
+    </navigation>
+
+    <div class="cf-logo">
+        <a class="cf-logo__link" href="index.html"><img src="images/logo.png" alt=""></a>
+    </div>
+    <div class="view view-transition">
+        <a id="back_arrow" class="back_arrow" href="bloki.html"><img src="images/l_arrow.png" alt=""><span>Назад</span></a>
+        <div id="proj" class="proj4">
+            <div class="white_section">
+                <div class="text_section">
+                    <p>
+                        <span class="name_zakaz text-center">Капитальный ремонт магистральных и квартальных тепловых сетей Центрального и Северного района ООО «БашРТС» в г. Уфа</span>
+                        <br><br> <b>Заказчик</b> – ООО «БашРТС», Группа «Интер РАО».
+                        <br><br> <b>Местоположение объекта строительства</b> – г.Уфа, Центральный и Северный район, микрорайон «Инорс», квартал «О».
+                        <br><br> <b>Виды работ</b> <br> Генеральный подрядчик – капитальный ремонт и новое строительство магистральных и квартальных тепловых сетей.
+                        <br><br> <b>Сроки выполнения работ</b> – июнь 2017 г. – по н.в.
+                        <br><br> <b>Бюджет</b> - 339 469 398,56 рублей.
+
+                    </p>
+                    <a class="link_proj" href="#">Посмотреть на карте</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function func() {
+            document.getElementById("proj").classList.add("animation2");
+            document.getElementById("back_arrow").classList.add("animation3");
+        }
+        setTimeout(func, 100);
+        let menu = 0;
+
+        function gemMenu() {
+            if (menu == 0) {
+                document.getElementById("navmenu").classList.add("navigation--show");
+                menu = 1;
+            } else {
+                document.getElementById("navmenu").classList.remove("navigation--show");
+                menu = 0;
+            }
+
+        }
+    </script>
+</body>
+
+</html>

@@ -1669,7 +1669,55 @@ body {
     width: 100%;
     opacity: 0;
     height: 100vh;
-    background-image: url("../images/pr1.png");
+    background-image: url("../images/1.jpg");
+    background-size: cover;
+}
+
+.proj2 {
+    width: 100%;
+    opacity: 0;
+    height: 100vh;
+    background-image: url("../images/pr2.jpg");
+    background-size: cover;
+}
+
+.proj3 {
+    width: 100%;
+    opacity: 0;
+    height: 100vh;
+    background-image: url("../images/pr3.jpg");
+    background-size: cover;
+}
+
+.proj4 {
+    width: 100%;
+    opacity: 0;
+    height: 100vh;
+    background-image: url("../images/pr4.jpg");
+    background-size: cover;
+}
+
+.proj5 {
+    width: 100%;
+    opacity: 0;
+    height: 100vh;
+    background-image: url("../images/pr5.jpg");
+    background-size: cover;
+}
+
+.proj6 {
+    width: 100%;
+    opacity: 0;
+    height: 100vh;
+    background-image: url("../images/pr6.jpg");
+    background-size: cover;
+}
+
+.proj7 {
+    width: 100%;
+    opacity: 0;
+    height: 100vh;
+    background-image: url("../images/pr6.jpg");
     background-size: cover;
 }
 
@@ -1895,4 +1943,10 @@ body {
 
 .press_container {
     padding-top: 30px;
+}
+
+.name_zakaz {
+    text-align: center;
+    font-weight: 900;
+    width: 100%;
 }

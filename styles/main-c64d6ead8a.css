@@ -12,6 +12,10 @@ html {
 }
 
 @media (max-width: 768px) {
+    .cf-logo {
+        top: 0!important;
+        left: 0!important;
+    }
     .text_section p {
         padding-left: 15px!important;
         padding-right: 15px!important;
@@ -772,14 +776,15 @@ body {
 .cf-logo {
     display: inline-block;
     position: fixed;
-    top: 0;
-    left: 0;
-    background-color: black;
+    top: 50px;
+    left: 55px;
+    /* background-color: black; */
+    /* !!!!! */
     color: #fff;
     font-size: 1.5em;
     white-space: nowrap;
-    width: 5.5rem;
-    height: 5.5rem;
+    width: 10.5rem;
+    height: 10.5rem;
     z-index: 6;
     text-indent: -100%;
     overflow: hidden;
@@ -809,13 +814,13 @@ body {
 }
 
 .cf-logo__link:before {
-    opacity: 1;
-    background-image: url("../images/logos/white-cf.png");
+    opacity: 0;
+    background-image: url("../images/logomenu.png");
 }
 
 .cf-logo__link:after {
-    opacity: 0;
-    background-image: url("../images/logos/black-cf.png");
+    opacity: 1;
+    background-image: url("../images/logomenu.png");
 }
 
 .cf-logo:before {
@@ -869,6 +874,15 @@ body {
 }
 
 @media (max-width: 63.9375em) {
+    .nav-toggle {
+        left: 0!important;
+    }
+    .cf-logo {
+        top: 0!important;
+        left: 0!important;
+        width: 2.5em!important;
+        height: 2.5em!important;
+    }
     .nav-toggle {
         top: 0;
         left: 4rem;
@@ -1015,7 +1029,7 @@ body {
     margin-top: 0;
     color: white;
     font-size: 3.5em;
-    padding-top: 12%;
+    padding-top: 22%;
 }
 
 .cont_bl h2 {
@@ -1076,7 +1090,7 @@ body {
     opacity: 0;
     width: 100%;
     height: 100vh;
-    background-image: url('../images/back.png');
+    background-image: url('../images/back.jpg');
     background-size: cover;
 }
 

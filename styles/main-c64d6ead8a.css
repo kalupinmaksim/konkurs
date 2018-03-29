@@ -1540,10 +1540,6 @@ body {
     z-index: 99 !important;
 }
 
-.nav-menu__list-item__link span {
-    font-weight: 900;
-}
-
 .blok_sect {
     opacity: 0;
     width: 100%;
@@ -1949,4 +1945,17 @@ body {
     text-align: center;
     font-weight: 900;
     width: 100%;
+}
+
+.par2 img {
+    width: 70%;
+    position: relative;
+    left: 15%;
+    top: -20px;
+}
+
+.pr1 img {
+    width: 85%;
+    position: relative;
+    left: 10%;
 }

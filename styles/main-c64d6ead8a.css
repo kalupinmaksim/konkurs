@@ -1540,6 +1540,20 @@ body {
     z-index: 99 !important;
 }
 
+@media(min-width: 1744px) {
+    .press_container {
+        margin: auto;
+        max-width: 1440px;
+    }
+}
+
+@media(min-width: 1650px) {
+    .document_container {
+        margin: auto;
+        max-width: 1280px;
+    }
+}
+
 .blok_sect {
     opacity: 0;
     width: 100%;

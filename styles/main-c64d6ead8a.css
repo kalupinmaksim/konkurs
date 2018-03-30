@@ -1683,6 +1683,18 @@ body {
     background-size: cover;
 }
 
+.newpb1 {
+    bottom: -70%;
+}
+
+.aboutim {
+    width: 100%;
+    opacity: 0;
+    height: 100vh;
+    background-image: url("../images/pr0.jpg");
+    background-size: cover;
+}
+
 .proj2 {
     width: 100%;
     opacity: 0;
@@ -1822,6 +1834,7 @@ body {
 
 .partner_img {
     width: 41%;
+    text-align: center;
 }
 
 .partners_line2 {
@@ -1829,7 +1842,9 @@ body {
 }
 
 .partner_img img {
-    width: 100%;
+    /* width: 100%; */
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .partner_text {

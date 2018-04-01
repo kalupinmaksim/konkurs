@@ -134,6 +134,11 @@
     <div class="view view-transition">
         <a id="back_arrow" class="back_arrow" href="bloki.html"><img src="images/l_arrow.png" alt=""><span>Назад</span></a>
         <div id="proj" class="proj7">
+            <ul class="body_slides pr7">
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
             <div class="white_section">
                 <div class="text_section">
                     <p>
@@ -162,6 +167,11 @@
         }
         setTimeout(func, 100);
         let menu = 0;
+
+        function anslid() {
+            document.getElementById("body_slides").classList.add("wslide");
+        }
+        setTimeout(anslid, 2120);
 
         function gemMenu() {
             if (menu == 0) {

@@ -1879,8 +1879,25 @@ body {
     color: white;
 }
 
+.document_item p {
+    text-align: center
+}
+
+#item_doc1 p {
+    position: relative;
+    top: -14px;
+}
+
+#item_doc2 p,
+#item_doc3 p {
+    position: relative;
+    top: -20px;
+}
+
 .document_item {
     opacity: 0;
+    max-width: 341.3px;
+    max-height: 113px;
     display: flex;
     margin-top: 45px;
     flex-direction: row;
@@ -2058,35 +2075,35 @@ body {
 }
 
 .pr2 li:nth-child(1) {
-    background-image: url(../images/1.jpg)
+    background-image: url(../images/second.jpg)
 }
 
 .pr2 li:nth-child(2) {
     -webkit-animation-delay: 6.0s;
     -moz-animation-delay: 6.0s;
-    background-image: url(../images/1.jpg)
+    background-image: url(../images/second.jpg)
 }
 
 .pr2 li:nth-child(3) {
     -webkit-animation-delay: 12.0s;
     -moz-animation-delay: 12.0s;
-    background-image: url(../images/1.jpg)
+    background-image: url(../images/second.jpg)
 }
 
 .pr3 li:nth-child(1) {
-    background-image: url(../images/1.jpg)
+    background-image: url(../images/sibel.jpg)
 }
 
 .pr3 li:nth-child(2) {
     -webkit-animation-delay: 6.0s;
     -moz-animation-delay: 6.0s;
-    background-image: url(../images/1.jpg)
+    background-image: url(../images/sibel.jpg)
 }
 
 .pr3 li:nth-child(3) {
     -webkit-animation-delay: 12.0s;
     -moz-animation-delay: 12.0s;
-    background-image: url(../images/1.jpg)
+    background-image: url(../images/sibel.jpg)
 }
 
 .pr4 li:nth-child(1) {
@@ -2138,19 +2155,19 @@ body {
 }
 
 .pr7 li:nth-child(1) {
-    background-image: url(../images/pr6.jpg)
+    background-image: url(../images/last.jpg)
 }
 
 .pr7 li:nth-child(2) {
     -webkit-animation-delay: 6.0s;
     -moz-animation-delay: 6.0s;
-    background-image: url(../images/pr6.jpg)
+    background-image: url(../images/last.jpg)
 }
 
 .pr7 li:nth-child(3) {
     -webkit-animation-delay: 12.0s;
     -moz-animation-delay: 12.0s;
-    background-image: url(../images/pr6.jpg)
+    background-image: url(../images/last.jpg)
 }
 
 @-webkit-keyframes anim_slides {

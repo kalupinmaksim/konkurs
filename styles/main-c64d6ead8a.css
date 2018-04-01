@@ -260,7 +260,9 @@ body {
 .nav-menu__social-links li img {
     position: relative;
     left: 10%;
-    float: left
+    float: left;
+    width: 16px;
+    height: 16px;
 }
 
 ul {
@@ -1010,6 +1012,10 @@ body {
     }
 }
 
+.projects-portfolio .pp-pl-item .pp-item-container * {
+    color: white;
+}
+
 .pl1 {
     left: 60px;
 }
@@ -1744,6 +1750,8 @@ body {
 }
 
 .white_section {
+    transition-property: bottom;
+    transition-duration: 4s;
     background-color: white;
     min-height: 60%;
     position: relative;

@@ -1579,7 +1579,7 @@ body {
 
 @font-face {
     font-family: 'Code-Pro-LC';
-    src: local('Code-Pro-LC'), url('https://nomail.com.ua/files/woff/2911619e2e1b119cfbc99e7bc8755d78.woff') format('woff');
+    src: url("fonts/Code_Pro.otf") format("opentype");
 }
 
 @font-face {

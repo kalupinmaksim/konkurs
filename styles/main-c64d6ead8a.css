@@ -1102,8 +1102,8 @@ body {
     opacity: 0;
     width: 100%;
     height: 100vh;
-    background-image: url('../images/back.jpg');
-    background-size: cover;
+    /* background-image: url('../images/back.jpg');
+    background-size: cover; */
 }
 
 @keyframes intro-back {
@@ -1580,6 +1580,44 @@ body {
 @font-face {
     font-family: 'Code-Pro-LC';
     src: url("fonts/Code_Pro.otf") format("opentype");
+}
+
+@media (min-aspect-ratio: 16/9) {
+    .video-foreground {
+        height: 300%!important;
+        top: -100%!important;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .video-foreground {
+        width: 300%!important;
+        left: -100%!important;
+    }
+}
+
+.video-background {
+    background: #000;
+    position: fixed;
+    top: 0;
+    right: -2px;
+    bottom: 0;
+    left: 0;
+    z-index: -99;
+}
+
+.video-foreground,
+.video-background iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+#vidtop-content {
+    top: 0;
 }
 
 @font-face {

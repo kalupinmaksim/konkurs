@@ -1027,6 +1027,21 @@ body {
     background-color: #fff;
 }
 
+.viw {
+    opacity: 1!important;
+    max-width: 341.3px;
+    max-height: 113px;
+    display: flex;
+    margin-top: 45px;
+    color: white;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px 80px;
+    padding-top: 15px;
+    margin-bottom: -10px;
+    border-bottom: 1px solid white
+}
+
 .projects-portfolio,
 .pp-main-perspective-image,
 #doc,
@@ -1962,13 +1977,13 @@ body {
     text-align: center
 }
 
-#item_doc1 p {
+#item_doc2 p {
     position: relative;
     top: -14px;
 }
 
-#item_doc2 p,
-#item_doc3 p {
+#item_doc5 p,
+#item_doc8 p {
     position: relative;
     top: -20px;
 }

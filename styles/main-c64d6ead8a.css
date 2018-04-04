@@ -1023,6 +1023,17 @@ body {
     color: white;
 }
 
+.document_item {
+    background-color: #fff;
+}
+
+.projects-portfolio,
+.pp-main-perspective-image,
+#doc,
+.container_partner {
+    background-color: #9f9f9f!important;
+}
+
 .pl1 {
     left: 60px;
 }
@@ -2127,35 +2138,59 @@ body {
 }
 
 .pr1 li:nth-child(1) {
-    background-image: url(../images/1.jpg)
+    background-image: url(../images/1_1.jpg)
 }
 
 .pr1 li:nth-child(2) {
     -webkit-animation-delay: 6.0s;
     -moz-animation-delay: 6.0s;
-    background-image: url(../images/1.jpg)
+    background-image: url(../images/1_2.jpg)
 }
 
 .pr1 li:nth-child(3) {
     -webkit-animation-delay: 12.0s;
     -moz-animation-delay: 12.0s;
-    background-image: url(../images/1.jpg)
+    background-image: url(../images/1_3.jpg)
+}
+
+.pr1 li:nth-child(4) {
+    -webkit-animation-delay: 12.0s;
+    -moz-animation-delay: 12.0s;
+    background-image: url(../images/1_4.jpg)
+}
+
+.pr1 li:nth-child(5) {
+    -webkit-animation-delay: 12.0s;
+    -moz-animation-delay: 12.0s;
+    background-image: url(../images/1_5.jpg)
 }
 
 .pr2 li:nth-child(1) {
-    background-image: url(../images/second.jpg)
+    background-image: url(../images/2_1.png)
 }
 
 .pr2 li:nth-child(2) {
     -webkit-animation-delay: 6.0s;
     -moz-animation-delay: 6.0s;
-    background-image: url(../images/second.jpg)
+    background-image: url(../images/2_2.png)
 }
 
 .pr2 li:nth-child(3) {
     -webkit-animation-delay: 12.0s;
     -moz-animation-delay: 12.0s;
-    background-image: url(../images/second.jpg)
+    background-image: url(../images/2_3.png)
+}
+
+.pr2 li:nth-child(4) {
+    -webkit-animation-delay: 12.0s;
+    -moz-animation-delay: 12.0s;
+    background-image: url(../images/2_4.png)
+}
+
+.pr2 li:nth-child(5) {
+    -webkit-animation-delay: 12.0s;
+    -moz-animation-delay: 12.0s;
+    background-image: url(../images/2_5.png)
 }
 
 .pr3 li:nth-child(1) {
@@ -2191,51 +2226,75 @@ body {
 }
 
 .pr5 li:nth-child(1) {
-    background-image: url(../images/pr5.jpg)
+    background-image: url(../images/5_1.jpg)
 }
 
 .pr5 li:nth-child(2) {
     -webkit-animation-delay: 6.0s;
     -moz-animation-delay: 6.0s;
-    background-image: url(../images/pr5.jpg)
+    background-image: url(../images/5_2.jpg)
 }
 
 .pr5 li:nth-child(3) {
     -webkit-animation-delay: 12.0s;
     -moz-animation-delay: 12.0s;
-    background-image: url(../images/pr5.jpg)
+    background-image: url(../images/5_3.jpg)
+}
+
+.pr5 li:nth-child(4) {
+    -webkit-animation-delay: 12.0s;
+    -moz-animation-delay: 12.0s;
+    background-image: url(../images/5_4.jpg)
+}
+
+.pr5 li:nth-child(5) {
+    -webkit-animation-delay: 12.0s;
+    -moz-animation-delay: 12.0s;
+    background-image: url(../images/5_5.jpg)
+}
+
+.pr5 li:nth-child(6) {
+    -webkit-animation-delay: 12.0s;
+    -moz-animation-delay: 12.0s;
+    background-image: url(../images/5_6.jpg)
 }
 
 .pr6 li:nth-child(1) {
-    background-image: url(../images/pr6.jpg)
+    background-image: url(../images/5_1.jpg)
 }
 
 .pr6 li:nth-child(2) {
     -webkit-animation-delay: 6.0s;
     -moz-animation-delay: 6.0s;
-    background-image: url(../images/pr6.jpg)
+    background-image: url(../images/6_2.jpg)
 }
 
 .pr6 li:nth-child(3) {
     -webkit-animation-delay: 12.0s;
     -moz-animation-delay: 12.0s;
-    background-image: url(../images/pr6.jpg)
+    background-image: url(../images/6_3.jpg)
+}
+
+.pr6 li:nth-child(4) {
+    -webkit-animation-delay: 12.0s;
+    -moz-animation-delay: 12.0s;
+    background-image: url(../images/6_4.jpg)
 }
 
 .pr7 li:nth-child(1) {
-    background-image: url(../images/last.jpg)
+    background-image: url(../images/7_1.jpg)
 }
 
 .pr7 li:nth-child(2) {
     -webkit-animation-delay: 6.0s;
     -moz-animation-delay: 6.0s;
-    background-image: url(../images/last.jpg)
+    background-image: url(../images/7_2.jpg)
 }
 
 .pr7 li:nth-child(3) {
     -webkit-animation-delay: 12.0s;
     -moz-animation-delay: 12.0s;
-    background-image: url(../images/last.jpg)
+    background-image: url(../images/7_3.jpg)
 }
 
 @-webkit-keyframes anim_slides {

@@ -125,6 +125,7 @@ html {
         margin-right: 0;
     }
     .partner_text {
+        color: white!important;
         text-align: left;
         width: 100%!important;
         padding-top: 15px;
@@ -132,8 +133,18 @@ html {
         padding-right: 10px;
     }
     .partner_text p {
+        color: white!important;
         font-size: 14px!important;
     }
+}
+
+.partner {
+    background-image: url(../images/main_back.jpg)!important;
+    background-size: cover;
+}
+
+.partner_text p {
+    color: white!important;
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
@@ -1041,8 +1052,9 @@ body {
 .projects-portfolio,
 .pp-main-perspective-image,
 #doc,
-.container_partner {
-    background-color: #9f9f9f!important;
+.partner {
+    background-image: url('../images/main_back.jpg')!important;
+    background-size: cover
 }
 
 .pl1 {
@@ -1973,13 +1985,13 @@ body {
     text-align: center
 }
 
-#item_doc2 p {
+#item_doc1 p {
     position: relative;
     top: -14px;
 }
 
-#item_doc5 p,
-#item_doc8 p {
+#item_doc2 p,
+#item_doc3 p {
     position: relative;
     top: -20px;
 }
@@ -2072,18 +2084,18 @@ body {
 
 .news_date {
     float: left;
-    color: black;
+    color: white;
     font-family: 'PT Sans', sans-serif;
 }
 
 .news_podr {
     float: right;
-    color: black;
+    color: white;
     font-family: 'PT Sans', sans-serif;
 }
 
 .news_podr a {
-    color: black;
+    color: white;
     font-family: 'PT Sans', sans-serif;
     padding-bottom: 3px;
 }
@@ -2218,6 +2230,10 @@ body {
     -webkit-animation-delay: 12.0s;
     -moz-animation-delay: 12.0s;
     background-image: url(../images/3_3.jpg)
+}
+
+.plogrn {
+    left: 16px;
 }
 
 .pr4 li:nth-child(1) {

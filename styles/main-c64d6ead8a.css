@@ -139,7 +139,7 @@ html {
 }
 
 .partner {
-    background-image: url(../images/main_back.jpg)!important;
+    background-image: url(../images/main_back.png)!important;
     background-size: cover;
 }
 
@@ -1053,7 +1053,7 @@ body {
 .pp-main-perspective-image,
 #doc,
 .partner {
-    background-image: url('../images/main_back.jpg')!important;
+    background-image: url('../images/main_back.png')!important;
     background-size: cover
 }
 
@@ -2233,7 +2233,8 @@ body {
 }
 
 .plogrn {
-    left: 16px;
+    left: -26px;
+    font-size: 13px;
 }
 
 .pr4 li:nth-child(1) {

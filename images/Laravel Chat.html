@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!-- saved from url=(0030)http://127.0.0.1:8000/register -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="6BCGbjoCS2AcGJ1I89licNdUtWfGHVSu9nraSIC7">
+
+    <title>Laravel Chat</title>
+
+    <!-- Styles -->
+    <link href="./Laravel Chat_files/app.css" rel="stylesheet">
+
+    <style>
+        .chat {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .chat li {
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+            border-bottom: 1px dotted #B3A9A9;
+        }
+
+        .chat li .chat-body p {
+            margin: 0;
+            color: #777777;
+        }
+
+        .panel-body {
+            overflow-y: scroll;
+            height: 350px;
+        }
+
+        ::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+            background-color: #F5F5F5;
+        }
+
+        ::-webkit-scrollbar {
+            width: 12px;
+            background-color: #F5F5F5;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+            background-color: #555;
+        }
+    </style>
+
+    <!-- Scripts -->
+    <script>
+        window.Laravel = {"csrfToken":"6BCGbjoCS2AcGJ1I89licNdUtWfGHVSu9nraSIC7","pusherKey":"f09ce1d3b5402e6e3dd4","pusherCluster":"eu"};
+    </script>
+</head>
+<body>
+    <div id="app"><nav class="navbar navbar-default navbar-static-top"><div class="container"><div class="navbar-header"><button type="button" data-toggle="collapse" data-target="#app-navbar-collapse" class="navbar-toggle collapsed"><span class="sr-only">Toggle Navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> <a href="http://127.0.0.1:8000/" class="navbar-brand">
+                        Laravel Chat
+                    </a></div> <div id="app-navbar-collapse" class="collapse navbar-collapse"><ul class="nav navbar-nav">
+                        &nbsp;
+                    </ul> <ul class="nav navbar-nav navbar-right"><li><a href="http://127.0.0.1:8000/login">Login</a></li> <li><a href="http://127.0.0.1:8000/register">Register</a></li></ul></div></div></nav> <div class="container"><div class="row"><div class="col-md-8 col-md-offset-2"><div class="panel panel-default"><div class="panel-heading">Register</div> <div class="panel-body"><form role="form" method="POST" action="http://127.0.0.1:8000/register" class="form-horizontal"><input type="hidden" name="_token" value="6BCGbjoCS2AcGJ1I89licNdUtWfGHVSu9nraSIC7"> <div class="form-group"><label for="name" class="col-md-4 control-label">Name</label> <div class="col-md-6"><input id="name" type="text" name="name" value="" required="required" autofocus="autofocus" class="form-control"></div></div> <div class="form-group"><label for="email" class="col-md-4 control-label">E-Mail Address</label> <div class="col-md-6"><input id="email" type="email" name="email" value="" required="required" class="form-control"></div></div> <div class="form-group"><label for="user_type" class="col-md-4 control-label">Тип учетной записи</label> <div class="col-md-6"><select onclick="get_groupSelect()" name="user_type" id="user_type" class="form-control"><option value="teacher">Преподаватель</option> <option value="student">Студент</option></select></div></div> <div id="form_hid_f" class="form-group" style="display: none;"><label for="group" class="col-md-4 control-label">Группа</label> <div class="col-md-6"><select name="group" id="group" class="form-control"><option value="teacher">Преподаватель</option> <option value="student">Студент</option></select></div></div> <div class="form-group"><label for="password" class="col-md-4 control-label">Password</label> <div class="col-md-6"><input id="password" type="password" name="password" required="required" class="form-control"></div></div> <div class="form-group"><label for="password-confirm" class="col-md-4 control-label">Confirm Password</label> <div class="col-md-6"><input id="password-confirm" type="password" name="password_confirmation" required="required" class="form-control"></div></div> <div class="form-group"><div class="col-md-6 col-md-offset-4"><button type="submit" class="btn btn-primary">
+                                    Register
+                                </button></div></div></form></div></div></div></div></div></div>
+
+    <!-- Scripts -->
+    <script src="./Laravel Chat_files/app.js"></script>
+
+
+</body></html>

@@ -139,9 +139,14 @@
         <a id="back_arrow" class="back_arrow" href="bloki.html"><img src="images/l_arrow.png" alt=""><span>Назад</span></a>
         <div id="proj" class="proj pr3">
             <ul class="body_slides">
-                <li></li>
-                <li></li>
-                <li></li>
+                <li id="li1" class="slidani"></li>
+                <li id="li2" class=""></li>
+                <li id="li3" class=""></li>
+                <div id="contbut" class="contbut">
+                    <button id="but1" class="sirclee activimg" onclick="func1()"></button>
+                    <button id="but2" class="sirclee" onclick="func2()"></button>
+                    <button id="but3" class="sirclee" onclick="func3()"></button>
+                </div>
             </ul>
             <div class="white_section">
                 <div class="text_section">
@@ -166,7 +171,46 @@
             document.getElementById("proj").classList.add("animation2");
             document.getElementById("back_arrow").classList.add("animation3");
         }
+
+        function addslidenaw() {
+            document.getElementById("contbut").classList.add("animation3");
+        }
+
+        function func1() {
+            document.getElementById("but1").classList.add("activimg");
+            document.getElementById("but2").classList.remove("activimg");
+            document.getElementById("but3").classList.remove("activimg");
+
+            document.getElementById("li1").classList.add("slidani");
+            document.getElementById("li2").classList.remove("slidani");
+            document.getElementById("li3").classList.remove("slidani");
+
+        }
+
+        function func2() {
+            document.getElementById("but1").classList.remove("activimg");
+            document.getElementById("but2").classList.add("activimg");
+            document.getElementById("but3").classList.remove("activimg");
+
+            document.getElementById("li1").classList.remove("slidani");
+            document.getElementById("li2").classList.add("slidani");
+            document.getElementById("li3").classList.remove("slidani");
+
+        }
+
+        function func3() {
+            document.getElementById("but1").classList.remove("activimg");
+            document.getElementById("but2").classList.remove("activimg");
+            document.getElementById("but3").classList.add("activimg");
+
+            document.getElementById("li1").classList.remove("slidani");
+            document.getElementById("li2").classList.remove("slidani");
+            document.getElementById("li3").classList.add("slidani");
+
+        }
+
         setTimeout(func, 100);
+        setTimeout(addslidenaw, 1600);
         let menu = 0;
 
         function anslid() {

@@ -139,11 +139,18 @@
         <a id="back_arrow" class="back_arrow" href="bloki.html"><img src="images/l_arrow.png" alt=""><span>Назад</span></a>
         <div id="proj" class="proj">
             <ul id="body_slides" class="body_slides pr2">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li id="li1" class="slidani"></li>
+                <li id="li2" class=""></li>
+                <li id="li3" class=""></li>
+                <li id="li4" class=""></li>
+                <li id="li5" class=""></li>
+                <div id="contbut" class="contbut">
+                    <button id="but1" class="sircle2 activimg" onclick="func1()"></button>
+                    <button id="but2" class="sircle2" onclick="func2()"></button>
+                    <button id="but3" class="sircle2" onclick="func3()"></button>
+                    <button id="but4" class="sircle2" onclick="func4()"></button>
+                    <button id="but5" class="sircle2" onclick="func5()"></button>
+                </div>
             </ul>
             <div class="white_section">
                 <div class="text_section">
@@ -168,6 +175,78 @@
 
             document.getElementById("back_arrow").classList.add("animation3");
         }
+
+        function addslidenaw() {
+            document.getElementById("contbut").classList.add("animation3");
+        }
+
+        function func1() {
+            document.getElementById("but1").classList.add("activimg");
+            document.getElementById("but2").classList.remove("activimg");
+            document.getElementById("but3").classList.remove("activimg");
+            document.getElementById("but4").classList.remove("activimg");
+            document.getElementById("but5").classList.remove("activimg");
+
+            document.getElementById("li1").classList.add("slidani");
+            document.getElementById("li2").classList.remove("slidani");
+            document.getElementById("li3").classList.remove("slidani");
+            document.getElementById("li4").classList.remove("slidani");
+            document.getElementById("li5").classList.remove("slidani");
+        }
+
+        function func2() {
+            document.getElementById("but1").classList.remove("activimg");
+            document.getElementById("but2").classList.add("activimg");
+            document.getElementById("but3").classList.remove("activimg");
+            document.getElementById("but4").classList.remove("activimg");
+            document.getElementById("but5").classList.remove("activimg");
+            document.getElementById("li1").classList.remove("slidani");
+            document.getElementById("li2").classList.add("slidani");
+            document.getElementById("li3").classList.remove("slidani");
+            document.getElementById("li4").classList.remove("slidani");
+            document.getElementById("li5").classList.remove("slidani");
+        }
+
+        function func3() {
+            document.getElementById("but1").classList.remove("activimg");
+            document.getElementById("but2").classList.remove("activimg");
+            document.getElementById("but3").classList.add("activimg");
+            document.getElementById("but4").classList.remove("activimg");
+            document.getElementById("but5").classList.remove("activimg");
+            document.getElementById("li1").classList.remove("slidani");
+            document.getElementById("li2").classList.remove("slidani");
+            document.getElementById("li3").classList.add("slidani");
+            document.getElementById("li4").classList.remove("slidani");
+            document.getElementById("li5").classList.remove("slidani");
+        }
+
+        function func4() {
+            document.getElementById("but1").classList.remove("activimg");
+            document.getElementById("but2").classList.remove("activimg");
+            document.getElementById("but3").classList.remove("activimg");
+            document.getElementById("but4").classList.add("activimg");
+            document.getElementById("but5").classList.remove("activimg");
+            document.getElementById("li1").classList.remove("slidani");
+            document.getElementById("li2").classList.remove("slidani");
+            document.getElementById("li3").classList.remove("slidani");
+            document.getElementById("li4").classList.add("slidani");
+            document.getElementById("li5").classList.remove("slidani");
+        }
+
+        function func5() {
+            document.getElementById("but1").classList.remove("activimg");
+            document.getElementById("but2").classList.remove("activimg");
+            document.getElementById("but3").classList.remove("activimg");
+            document.getElementById("but4").classList.remove("activimg");
+            document.getElementById("but5").classList.add("activimg");
+
+            document.getElementById("li1").classList.remove("slidani");
+            document.getElementById("li2").classList.remove("slidani");
+            document.getElementById("li3").classList.remove("slidani");
+            document.getElementById("li4").classList.remove("slidani");
+            document.getElementById("li5").classList.add("slidani");
+        }
+        setTimeout(addslidenaw, 1600);
 
         function anslid() {
             document.getElementById("body_slides").classList.add("wslide");
